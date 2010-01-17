@@ -1,0 +1,400 @@
+left clockwise
+frontface yellow red white yellow red white orange red yellow
+leftface blue blue blue blue blue blue yellow yellow blue
+backface orange orange white orange orange red orange orange green
+rightface red green green blue green green blue green green
+topface white yellow yellow orange yellow yellow orange green green
+bottomface red white red red white white red white white
+
+front counter-clockwise
+frontface white white yellow red red red yellow yellow orange
+leftface blue blue orange blue blue green yellow yellow green
+backface orange orange white orange orange red orange orange green
+rightface red green green white green green red green green
+topface white yellow yellow orange yellow yellow red blue blue
+bottomface blue blue blue red white white red white white
+
+left clockwise
+frontface white white yellow orange red red red yellow orange
+leftface yellow blue blue yellow blue blue green green orange
+backface orange orange blue orange orange red orange orange red
+rightface red green green white green green red green green
+topface white yellow yellow red yellow yellow green blue blue
+bottomface white blue blue red white white yellow white white
+
+left counter-clockwise
+frontface white white yellow red red red yellow yellow orange
+leftface blue blue orange blue blue green yellow yellow green
+backface orange orange white orange orange red orange orange green
+rightface red green green white green green red green green
+topface white yellow yellow orange yellow yellow red blue blue
+bottomface blue blue blue red white white red white white
+
+front counter-clockwise
+frontface yellow red orange white red yellow white red yellow
+leftface blue blue red blue blue blue yellow yellow blue
+backface orange orange white orange orange red orange orange green
+rightface blue green green blue green green blue green green
+topface white yellow yellow orange yellow yellow red white red
+bottomface orange green green red white white red white white
+
+left counter-clockwise
+frontface orange red orange red red yellow red red yellow
+leftface red blue blue blue blue yellow blue blue yellow
+backface orange orange white orange orange orange orange orange red
+rightface blue green green blue green green blue green green
+topface yellow yellow yellow white yellow yellow white white red
+bottomface white green green red white white green white white
+
+left counter-clockwise
+frontface white red orange red red yellow green red yellow
+leftface blue yellow yellow blue blue blue red blue blue
+backface orange orange yellow orange orange white orange orange white
+rightface blue green green blue green green blue green green
+topface orange yellow yellow red yellow yellow red white red
+bottomface white green green orange white white red white white
+
+front counter-clockwise
+frontface orange yellow yellow red red red white red green
+leftface blue yellow red blue blue white red blue red
+backface orange orange yellow orange orange white orange orange white
+rightface white green green green green green green green green
+topface orange yellow yellow red yellow yellow blue blue blue
+bottomface yellow blue blue orange white white red white white
+
+left clockwise
+frontface orange yellow yellow red red red blue red green
+leftface red blue blue blue blue yellow red white red
+backface orange orange yellow orange orange orange orange orange red
+rightface white green green green green green green green green
+topface yellow yellow yellow white yellow yellow white blue blue
+bottomface orange blue blue red white white white white white
+
+left counter-clockwise
+frontface orange yellow yellow red red red white red green
+leftface blue yellow red blue blue white red blue red
+backface orange orange yellow orange orange white orange orange white
+rightface white green green green green green green green green
+topface orange yellow yellow red yellow yellow blue blue blue
+bottomface yellow blue blue orange white white red white white
+
+left clockwise
+frontface orange yellow yellow red red red blue red green
+leftface red blue blue blue blue yellow red white red
+backface orange orange yellow orange orange orange orange orange red
+rightface white green green green green green green green green
+topface yellow yellow yellow white yellow yellow white blue blue
+bottomface orange blue blue red white white white white white
+
+left clockwise
+frontface orange yellow yellow red red red white red green
+leftface blue yellow red blue blue white red blue red
+backface orange orange yellow orange orange white orange orange white
+rightface white green green green green green green green green
+topface orange yellow yellow red yellow yellow blue blue blue
+bottomface yellow blue blue orange white white red white white
+
+front clockwise
+frontface white red orange red red yellow green red yellow
+leftface blue yellow yellow blue blue blue red blue blue
+backface orange orange yellow orange orange white orange orange white
+rightface blue green green blue green green blue green green
+topface orange yellow yellow red yellow yellow red white red
+bottomface white green green orange white white red white white
+
+left clockwise
+frontface orange red orange red red yellow red red yellow
+leftface red blue blue blue blue yellow blue blue yellow
+backface orange orange white orange orange orange orange orange red
+rightface blue green green blue green green blue green green
+topface yellow yellow yellow white yellow yellow white white red
+bottomface white green green red white white green white white
+
+front clockwise
+frontface red red orange red red red yellow yellow orange
+leftface red blue white blue blue green blue blue green
+backface orange orange white orange orange orange orange orange red
+rightface white green green white green green red green green
+topface yellow yellow yellow white yellow yellow blue yellow yellow
+bottomface blue blue blue red white white green white white
+
+front counter-clockwise
+frontface orange red orange red red yellow red red yellow
+leftface red blue blue blue blue yellow blue blue yellow
+backface orange orange white orange orange orange orange orange red
+rightface blue green green blue green green blue green green
+topface yellow yellow yellow white yellow yellow white white red
+bottomface white green green red white white green white white
+
+front clockwise
+frontface red red orange red red red yellow yellow orange
+leftface red blue white blue blue green blue blue green
+backface orange orange white orange orange orange orange orange red
+rightface white green green white green green red green green
+topface yellow yellow yellow white yellow yellow blue yellow yellow
+bottomface blue blue blue red white white green white white
+
+left clockwise
+frontface yellow red orange white red red blue yellow orange
+leftface blue blue red blue blue blue green green white
+backface orange orange blue orange orange red orange orange green
+rightface white green green white green green red green green
+topface white yellow yellow orange yellow yellow red yellow yellow
+bottomface red blue blue red white white yellow white white
+
+left clockwise
+frontface white red orange orange red red red yellow orange
+leftface green blue blue green blue blue white blue red
+backface orange orange red orange orange red orange orange yellow
+rightface white green green white green green red green green
+topface blue yellow yellow red yellow yellow green yellow yellow
+bottomface yellow blue blue white white white blue white white
+
+front clockwise
+frontface red orange white yellow red red orange red orange
+leftface green blue yellow green blue blue white blue blue
+backface orange orange red orange orange red orange orange yellow
+rightface green green green yellow green green yellow green green
+topface blue yellow yellow red yellow yellow blue blue red
+bottomface white white red white white white blue white white
+
+front clockwise
+frontface orange yellow red red red orange orange red white
+leftface green blue white green blue white white blue red
+backface orange orange red orange orange red orange orange yellow
+rightface blue green green blue green green red green green
+topface blue yellow yellow red yellow yellow yellow blue blue
+bottomface green yellow yellow white white white blue white white
+
+front clockwise
+frontface blue yellow red red red orange yellow red white
+leftface white green green blue blue blue red white white
+backface orange orange green orange orange white orange orange blue
+rightface blue green green blue green green red green green
+topface red yellow yellow red yellow yellow yellow blue blue
+bottomface orange yellow yellow red white white orange white white
+
+left counter-clockwise
+frontface orange yellow red red red orange orange red white
+leftface green blue white green blue white white blue red
+backface orange orange red orange orange red orange orange yellow
+rightface blue green green blue green green red green green
+topface blue yellow yellow red yellow yellow yellow blue blue
+bottomface green yellow yellow white white white blue white white
+
+left clockwise
+frontface blue yellow red red red orange yellow red white
+leftface white green green blue blue blue red white white
+backface orange orange green orange orange white orange orange blue
+rightface blue green green blue green green red green green
+topface red yellow yellow red yellow yellow yellow blue blue
+bottomface orange yellow yellow red white white orange white white
+
+front clockwise
+frontface yellow red blue red red yellow white orange red
+leftface white green orange blue blue yellow red white yellow
+backface orange orange green orange orange white orange orange blue
+rightface yellow green green blue green green blue green green
+topface red yellow yellow red yellow yellow green blue white
+bottomface blue blue red red white white orange white white
+
+front counter-clockwise
+frontface blue yellow red red red orange yellow red white
+leftface white green green blue blue blue red white white
+backface orange orange green orange orange white orange orange blue
+rightface blue green green blue green green red green green
+topface red yellow yellow red yellow yellow yellow blue blue
+bottomface orange yellow yellow red white white orange white white
+
+left counter-clockwise
+frontface orange yellow red red red orange orange red white
+leftface green blue white green blue white white blue red
+backface orange orange red orange orange red orange orange yellow
+rightface blue green green blue green green red green green
+topface blue yellow yellow red yellow yellow yellow blue blue
+bottomface green yellow yellow white white white blue white white
+
+front clockwise
+frontface orange red orange red red yellow white orange red
+leftface green blue green green blue yellow white blue yellow
+backface orange orange red orange orange red orange orange yellow
+rightface yellow green green blue green green blue green green
+topface blue yellow yellow red yellow yellow white white red
+bottomface blue blue red white white white blue white white
+
+left counter-clockwise
+frontface blue red orange white red yellow blue orange red
+leftface green yellow yellow blue blue blue green green white
+backface orange orange blue orange orange red orange orange white
+rightface yellow green green blue green green blue green green
+topface orange yellow yellow red yellow yellow white white red
+bottomface red blue red red white white yellow white white
+
+left clockwise
+frontface orange red orange red red yellow white orange red
+leftface green blue green green blue yellow white blue yellow
+backface orange orange red orange orange red orange orange yellow
+rightface yellow green green blue green green blue green green
+topface blue yellow yellow red yellow yellow white white red
+bottomface blue blue red white white white blue white white
+
+front clockwise
+frontface white red orange orange red red red yellow orange
+leftface green blue blue green blue blue white blue red
+backface orange orange red orange orange red orange orange yellow
+rightface white green green white green green red green green
+topface blue yellow yellow red yellow yellow green yellow yellow
+bottomface yellow blue blue white white white blue white white
+
+front clockwise
+frontface red orange white yellow red red orange red orange
+leftface green blue yellow green blue blue white blue blue
+backface orange orange red orange orange red orange orange yellow
+rightface green green green yellow green green yellow green green
+topface blue yellow yellow red yellow yellow blue blue red
+bottomface white white red white white white blue white white
+
+left counter-clockwise
+frontface white orange white white red red blue red orange
+leftface yellow blue blue blue blue blue green green white
+backface orange orange blue orange orange red orange orange blue
+rightface green green green yellow green green yellow green green
+topface red yellow yellow yellow yellow yellow orange blue red
+bottomface red white red red white white yellow white white
+
+left counter-clockwise
+frontface blue white white red red orange orange red white
+leftface yellow blue red blue blue white green green red
+backface orange orange blue orange orange red orange orange blue
+rightface orange green green blue green green red green green
+topface red yellow yellow yellow yellow yellow blue blue white
+bottomface green yellow yellow red white white yellow white white
+
+left clockwise
+frontface red white white yellow red orange blue red white
+leftface green blue yellow green blue blue red white red
+backface orange orange green orange orange red orange orange yellow
+rightface orange green green blue green green red green green
+topface blue yellow yellow red yellow yellow blue blue white
+bottomface blue yellow yellow red white white orange white white
+
+left clockwise
+frontface blue white white red red orange blue red white
+leftface red green green white blue blue red blue yellow
+backface orange orange blue orange orange red orange orange orange
+rightface orange green green blue green green red green green
+topface green yellow yellow red yellow yellow yellow blue white
+bottomface red yellow yellow yellow white white blue white white
+
+left clockwise
+frontface green white white red red orange yellow red white
+leftface red white red blue blue green yellow blue green
+backface orange orange red orange orange yellow orange orange blue
+rightface orange green green blue green green red green green
+topface blue yellow yellow red yellow yellow orange blue white
+bottomface blue yellow yellow red white white blue white white
+
+left counter-clockwise
+frontface blue white white red red orange blue red white
+leftface red green green white blue blue red blue yellow
+backface orange orange blue orange orange red orange orange orange
+rightface orange green green blue green green red green green
+topface green yellow yellow red yellow yellow yellow blue white
+bottomface red yellow yellow yellow white white blue white white
+
+front counter-clockwise
+frontface white orange white white red red blue red blue
+leftface red green yellow white blue blue red blue white
+backface orange orange blue orange orange red orange orange orange
+rightface red green green yellow green green yellow green green
+topface green yellow yellow red yellow yellow orange blue red
+bottomface green blue yellow yellow white white blue white white
+
+left clockwise
+frontface green orange white red red red orange red blue
+leftface red white red blue blue green white blue yellow
+backface orange orange green orange orange yellow orange orange blue
+rightface red green green yellow green green yellow green green
+topface blue yellow yellow red yellow yellow orange blue red
+bottomface white blue yellow white white white blue white white
+
+left clockwise
+frontface blue orange white red red red orange red blue
+leftface white blue red blue blue white yellow green red
+backface orange orange white orange orange white orange orange blue
+rightface red green green yellow green green yellow green green
+topface green yellow yellow yellow yellow yellow blue blue red
+bottomface green blue yellow red white white orange white white
+
+left clockwise
+frontface green orange white yellow red red blue red blue
+leftface yellow blue white green blue blue red white red
+backface orange orange green orange orange red orange orange orange
+rightface red green green yellow green green yellow green green
+topface white yellow yellow white yellow yellow blue blue red
+bottomface blue blue yellow red white white orange white white
+
+front counter-clockwise
+frontface white red blue orange red red green yellow blue
+leftface yellow blue blue green blue blue red white red
+backface orange orange green orange orange red orange orange orange
+rightface blue green green blue green green yellow green green
+topface white yellow yellow white yellow yellow red yellow yellow
+bottomface white blue red red white white orange white white
+
+left counter-clockwise
+frontface white red blue red red red orange yellow blue
+leftface blue blue red blue blue white yellow green red
+backface orange orange white orange orange white orange orange red
+rightface blue green green blue green green yellow green green
+topface white yellow yellow orange yellow yellow green yellow yellow
+bottomface green blue red red white white orange white white
+
+front counter-clockwise
+frontface blue red blue red red yellow white red orange
+leftface blue blue green blue blue yellow yellow green yellow
+backface orange orange white orange orange white orange orange red
+rightface green green green blue green green red green green
+topface white yellow yellow orange yellow yellow blue blue yellow
+bottomface red white red red white white orange white white
+
+front clockwise
+frontface white red blue red red red orange yellow blue
+leftface blue blue red blue blue white yellow green red
+backface orange orange white orange orange white orange orange red
+rightface blue green green blue green green yellow green green
+topface white yellow yellow orange yellow yellow green yellow yellow
+bottomface green blue red red white white orange white white
+
+left clockwise
+frontface white red blue orange red red green yellow blue
+leftface yellow blue blue green blue blue red white red
+backface orange orange green orange orange red orange orange orange
+rightface blue green green blue green green yellow green green
+topface white yellow yellow white yellow yellow red yellow yellow
+bottomface white blue red red white white orange white white
+
+left clockwise
+frontface white red blue white red red red yellow blue
+leftface red green yellow white blue blue red blue blue
+backface orange orange white orange orange red orange orange orange
+rightface blue green green blue green green yellow green green
+topface green yellow yellow red yellow yellow orange yellow yellow
+bottomface white blue red orange white white green white white
+
+front counter-clockwise
+frontface blue red blue red red yellow white white red
+leftface red green orange white blue yellow red blue yellow
+backface orange orange white orange orange red orange orange orange
+rightface white green green blue green green red green green
+topface green yellow yellow red yellow yellow blue blue yellow
+bottomface yellow blue blue orange white white green white white
+
+front clockwise
+frontface white red blue white red red red yellow blue
+leftface red green yellow white blue blue red blue blue
+backface orange orange white orange orange red orange orange orange
+rightface blue green green blue green green yellow green green
+topface green yellow yellow red yellow yellow orange yellow yellow
+bottomface white blue red orange white white green white white
+

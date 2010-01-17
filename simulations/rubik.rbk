@@ -1,0 +1,15 @@
+topface counter-clockwise
+frontface green white green red orange orange red orange orange
+leftface blue green yellow blue green yellow green green blue
+backface red white orange orange red red red yellow red
+rightface white blue blue blue blue white blue red green
+topface yellow red yellow orange yellow yellow orange blue orange
+bottomface white yellow white white white green white green yellow
+
+rightface clockwise
+frontface red blue red blue red blue red blue red
+leftface blue green yellow blue green yellow green green blue
+backface red blue red blue red blue red blue red
+rightface white blue blue blue blue white blue red green
+topface yellow red yellow orange yellow yellow orange blue orange
+bottomface white red white orange orange red red red yellow red
