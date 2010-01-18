@@ -31,7 +31,7 @@ rubikai/              # Project root directory
 
 -= Compiling/Loading the core system =-
   # Load up your favorite Lisp interpreter
-  > (load (compile-file core/src/RubikAI.lisp))
+  > (load (compile-file "RubikAI.lisp"))
 
 -= Most basic way to run RubikAI =-
   > (simulate)
@@ -39,15 +39,15 @@ rubikai/              # Project root directory
   # The following is equivalent to the above which uses the default options:
   > (simulate :outfile "rubik-out.rbk"
               :algorithm #'simulated-annealing
-              :heuristic #'novice-successor)
-  # Any combination of :algorithm and :heuristic may be used (see below)
+              :successor #'novice-successor)
+  # Any combination of :algorithm and :successor may be used (see below)
 
--= The current list of :algorithm and :heuristic options =-
+-= The current list of :algorithm and :successor options =-
   :algorithm #'simulated-annealing
   :algorithm #'greedy
-  :heuristic #'random-successor
-  :heuristic #'novice-successor
-  :heuristic #'smart-successor
+  :successor #'random-successor
+  :successor #'novice-successor
+  :successor #'smart-successor
 
 -= Starting from a specified cube state =-
   By default, (simulate) will generate a random start state for the

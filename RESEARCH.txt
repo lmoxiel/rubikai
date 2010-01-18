@@ -7,9 +7,9 @@ the current change.  The hope is that if a new method is created and
 tested, or a current method is tweaked with different parameters, etc,
 then one would update the new results here to go along with this revision.
 
-Tweaking the program involves modifying alorithms and/or heuristics.
+Tweaking the program involves modifying alorithms and/or successors.
 Therefore, the structure of the document is simply an exhaustive list
-of the tweaks made to any algorithm or heuristic.  One may also include
+of the tweaks made to any algorithm or successor.  One may also include
 any tweaks made to the scheduler for simulated-annealing, the number of 
 iterations used, etc. Also, a quick summary or conclusion is always the
 first section listed so others can quickly know what was done.
@@ -47,7 +47,7 @@ greedy:
   Tweaking it will probably turn it into a different type of algorithm
   altogether.
 
-[HEURISTIC]
+[SUCCESSOR]
 random-successor:
   This successor method looks at the list (*rotations*) of 12 possible
   move rotations on the current state and returns the result of a random move.
