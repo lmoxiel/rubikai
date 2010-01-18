@@ -1,0 +1,98 @@
+RESEARCH and ANALYSIS
+
+Researcher: Christopher Jackson <christopher.jackson@gmail.com>
+
+The purpose of this file is to share the analysis and observations with
+the current change.  The hope is that if a new method is created and
+tested, or a current method is tweaked with different parameters, etc,
+then one would update the new results here to go along with this revision.
+
+Tweaking the program involves modifying alorithms and/or heuristics.
+Therefore, the structure of the document is simply an exhaustive list
+of the tweaks made to any algorithm or heuristic.  One may also include
+any tweaks made to the scheduler for simulated-annealing, the number of 
+iterations used, etc. Also, a quick summary or conclusion is always the
+first section listed so others can quickly know what was done.
+
+
+[CONCLUSION]
+So far, I'm not 100% excited with the results.  The cooling schedule 
+can be tweaked better, but it may be okay for now.  The real problem
+is the balance between having enough randomness while still choosing
+good successors.  Conflicts are still in the lower 30's for both algorithms
+due to the fact that the it is getting stuck at a local minimum and does
+not have enough randomness to escape (in the case of simulated-annealing).
+
+[ALGORITHM]
+simulated-annealing:
+  The overall structure of the simulated-annealing algorithm works
+  as expected, except it is still getting stuck in local minima.
+  If random-successor is chosen, then it becomes way too random
+  and the algorithm never finds its way down to the global minimum.
+  Both novice-successor and smart-successor do a great job in finding
+  a successsor with lesser conflicts than the current state, however
+  this sort of defeats the purpose of simulated-annealing in that it
+  wants to allow bad moves especially in the beginning but allowing
+  such bad moves with much less probability as the schedule cools down.
+  As a result, the algorithm is quick to find a local minimum, but once
+  trapped it almost never escapes it, thus never reaching the global minium.
+
+  
+greedy:
+  This algorithm is working exactly as expected.  It mimics a hill-climbing
+  type of approach where it only cares about making a great move. Obviously
+  the best heuristic to use with this algorithm is smart-successor which
+  always chooses a better successor than the other methods given sufficient
+  depth.  This algorithm is more of a curiosity point to see how far it gets.
+  Tweaking it will probably turn it into a different type of algorithm
+  altogether.
+
+[HEURISTIC]
+random-successor:
+  This successor method looks at the list (*rotations*) of 12 possible
+  move rotations on the current state and returns the result of a random move.
+
+
+novice-successor:
+  This successor method peeks at the results of each of the 12 possible
+  move *rotations* on the current state and chooses only ONE--the one
+  which results in the least number of conflicts.
+
+
+smart-successor:
+  This is an interesting successor method which takes a :depth parameter
+  and recursivley does what novice-successor would do for each of the moves
+  for as far as the specified :depth.  For example passing :depth 1 would be
+  equivalent to calling novice-successor.  Where novice-successor always looks
+  at 12 possible states, smart-successor looks at 12^d possible states where
+  'd' is the :depth parameter. Thus :depth 2 looks at 12^2=144 states!
+  This is taking each move and performing all twelve moves from the state
+  after the original move.  I've found that the :depth of 5 is the "maximum-
+  bearable" value which I've found to finish execution in about 60 seconds.
+  After a :depth of 5, the exponential explosion is VERY HIGH. A :depth
+  of 5 looks at 248,332 states while a :depth of 6 looks at 2,985,984 states!
+
+  There is currently a negative side-effect in using smart-successor. It could
+  find the best successor to be say, at :depth 3 by performing:
+  right-clockwise -> top-counter-clockwise -> back-counter-clockwise.
+  However, once returned back to the algorithm, only the final state from
+  the last move is written to the log file, so we don't get to see how
+  it arrived at that state which results in gaps in our simulation.
+  In a future release, I would like to keep track of the move sequence
+  of each iteration so that the algorithm can include this in the log file.
+  This may cause a computational hit since we may have to "re-live" or 
+  recompute the rotations of the sequence so that the log output gets
+  a chance to record the state along the way.
+
+
+min-conflicts:
+  This is not part of the successor group, however, it is included here
+  since it has a great enough effect on the outcome of the program overall.
+  Each side of a cube has a designated face.  This is due to the fact that
+  the middle square of any face cannot move, thus designating the color
+  of that face.  Any other colors on a face that does not match the middle
+  block's color is counted as a conflict.  When you total these up for
+  every side, you end up with a total number of conflicts.  The algorithms
+  try to minimize this value.  A goal cube has exactly 0 conflicts, i.e.
+  all colors match the designated color for each particular face.
+

@@ -1,15 +1,7 @@
 ;; Christopher Jackson
 ;; December, 2009
 ;; RubikAI.lisp
-;; output files *.rbk file may be imported into RubikAI GUI front-end (Qt)
-
-(defparameter *my-cube* '(
-((white white yellow) (red red yellow) (red orange red))
-((red green orange) (green blue green) (orange orange white))
-((red blue blue) (green orange white) (blue blue green))
-((green white yellow) (blue green yellow) (white red yellow))
-((yellow white green) (orange yellow red) (blue orange orange))
-((green yellow blue) (blue white yellow) (white red orange))))
+;; output files *.rbk may be imported into RubikAI GUI front-end (Qt)
 
 (defparameter *goal-cube* '(
 ((red red red) (red red red) (red red red))
